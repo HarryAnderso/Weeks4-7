@@ -17,7 +17,7 @@ public class Cloudscript : MonoBehaviour
         transform.position = pos;
     }
 
-    // Update is called  per frame
+    // Update is   per frame
     public void Update()
     {
         
