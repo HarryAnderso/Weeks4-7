@@ -5,12 +5,12 @@ using UnityEngine;
 public class Cloudscript : MonoBehaviour
 {
     public float cspeed = 5;
-    public float life = 1;
-    public void Start()
+    public float life = 5;
+     void Start()
     {
         Destroy(gameObject, 5);
         Vector3 pos = transform.position;
-
+        life = 5;
 
         //cspeed = Random.Range(-5, 5);
         pos.y = Random.Range(0, 4);
@@ -18,7 +18,7 @@ public class Cloudscript : MonoBehaviour
     }
 
     // Update is   per frame
-    public void Update()
+     void Update()
     {
         
         Vector3 pos = transform.position;
