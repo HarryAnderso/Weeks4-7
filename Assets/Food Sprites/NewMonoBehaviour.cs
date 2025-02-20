@@ -4,13 +4,13 @@ using System.Collections;
 public class NewMonoBehaviour : MonoBehaviour
 {
     public GameObject prefab;
-    void Start()
+    public void Start()
     {
 
     }
 
     // Update is  once per frame
-    void Update()
+    public void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
